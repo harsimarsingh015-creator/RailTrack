@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RailTrack - Train information and schedule search project.">
+    <title>RailTrack | Train Information System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="brand">Rail<span>Track</span></a>
+
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <span class="hero-tag">YOUR JOURNEY STARTS HERE</span>
+            <h1>Find Your Train.<br><span>Plan Your Journey.</span></h1>
+            <p>
+                Search train information, explore routes and check
+                station-wise schedules with RailTrack.
+            </p>
+        </div>
+        <div class="hero-icon">🚆</div>
+    </header>
+
+    <main class="container">
+
+        <section class="search-card">
+            <div class="section-label">TRAIN INFORMATION</div>
+            <h2>Find Your Train</h2>
+            <p class="search-description">
+                Enter a train name or train number to view its details.
+            </p>
+
+            <div class="search-controls">
+                <input
+                    type="text"
+                    id="trainSearch"
+                    placeholder="e.g. 12002 or Bhopal Shatabdi"
+                    aria-label="Enter train name or number"
+                >
+
+                <button id="searchButton" type="button">
+                    Search Train <span>→</span>
+                </button>
+            </div>
+
+            <div id="result" aria-live="polite"></div>
+        </section>
+
+        <section class="features-section">
+            <div class="section-label">OUR FEATURES</div>
+            <h2>Everything You Need to Know</h2>
+            <p class="features-intro">
+                Simple tools to explore train information.
+            </p>
+
+            <div class="features-grid">
+
+                <article class="feature-item">
+                    <div class="feature-icon">🚆</div>
+                    <h3>Train Search</h3>
+                    <p>
+                        Find trains easily using their name or
+                        train number.
+                    </p>
+                </article>
+
+                <article class="feature-item">
+                    <div class="feature-icon">🕒</div>
+                    <h3>Train Schedule</h3>
+                    <p>
+                        Explore station-wise arrival and
+                        departure timings.
+                    </p>
+                </article>
+
+                <article class="feature-item">
+                    <div class="feature-icon">📍</div>
+                    <h3>Route Information</h3>
+                    <p>
+                        View train routes, source stations,
+                        destinations and stops.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="project-notice">
+            <strong>Project demonstration notice</strong>
+            <p>
+                RailTrack currently displays sample train information.
+                It is not connected to live Indian Railways data.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-brand">RailTrack</div>
+        <p>Track trains. Travel smarter.</p>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+        </div>
+        <small>© 2026 RailTrack. College Mini Project.</small>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+]
